@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "MAKEthingsUP",
+    "url": "https://github.com/nidhipatel439/makeup",
+    "slug": "MAKEthingsUP",
+    "image": "./images/makethingsup.png",
+    "content": "This is a mock e-commerce website for the makeup products. This website utilizes two apis one for fetching different makeup products information and second for the convert the currency rate.\r\n\r\n\r\n\r\nTechnology Used: NodeJs, Express.js, EJS",
+    "type_id": 3,
+    "user_id": 1,
+    "created_at": "2022-08-12T16:35:45.000000Z",
+    "updated_at": "2022-08-12T16:48:07.000000Z",
+    "user": {
+      "id": 1,
+      "first": "Bennett",
+      "last": "Buckridge",
+      "email": "cwilkinson@example.net",
+      "email_verified_at": "2022-08-12T16:35:45.000000Z",
+      "created_at": "2022-08-12T16:35:45.000000Z",
+      "updated_at": "2022-08-12T16:35:45.000000Z"
+    },
+    "type": {
+      "id": 3,
+      "title": "Et nam quos omnis.",
+      "created_at": "2022-08-12T16:35:45.000000Z",
+      "updated_at": "2022-08-12T16:35:45.000000Z"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Humber Timesheet Tracker",
+    "url": "https://nidhipatel439.github.io/humber_timesheet_tracker/",
+    "slug": "HumberTimesheetTracker",
+    "image": "./images/timesheettracker.png",
+    "content": "A vanilla javascript application that tracks tasks and the timer to track how much time it takes to complete each task.\r\n\r\nTechnology used: HTML, CSS, Javascript",
+    "type_id": 1,
+    "user_id": 1,
+    "created_at": "2022-08-12T16:35:45.000000Z",
+    "updated_at": "2022-08-12T16:45:06.000000Z",
+    "user": {
+      "id": 1,
+      "first": "Bennett",
+      "last": "Buckridge",
+      "email": "cwilkinson@example.net",
+      "email_verified_at": "2022-08-12T16:35:45.000000Z",
+      "created_at": "2022-08-12T16:35:45.000000Z",
+      "updated_at": "2022-08-12T16:35:45.000000Z"
+    },
+    "type": {
+      "id": 1,
+      "title": "Aperiam quia nam voluptas vel mollitia debitis deleniti.",
+      "created_at": "2022-08-12T16:35:45.000000Z",
+      "updated_at": "2022-08-12T16:35:45.000000Z"
+    }
+  },
+  {
+    "id": 3,
+    "title": "MAKEthingsUP",
+    "url": "https://github.com/nidhipatel439/Makethingsup",
+    "slug": "MAKEthingsUPHTML",
+    "image": "./images/makeup.png",
+    "content": "A simple website looks like a mock e-commerce website.\r\n\r\nTechnology Used: NodeJs, Pug, CSS",
+    "type_id": 1,
+    "user_id": 1,
+    "created_at": "2022-08-12T16:35:45.000000Z",
+    "updated_at": "2022-08-12T16:46:05.000000Z",
+    "user": {
+      "id": 1,
+      "first": "Bennett",
+      "last": "Buckridge",
+      "email": "cwilkinson@example.net",
+      "email_verified_at": "2022-08-12T16:35:45.000000Z",
+      "created_at": "2022-08-12T16:35:45.000000Z",
+      "updated_at": "2022-08-12T16:35:45.000000Z"
+    },
+    "type": {
+      "id": 1,
+      "title": "Aperiam quia nam voluptas vel mollitia debitis deleniti.",
+      "created_at": "2022-08-12T16:35:45.000000Z",
+      "updated_at": "2022-08-12T16:35:45.000000Z"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Portfolio",
+    "url": "https://github.com/nidhipatel439/Portfolio",
+    "slug": "Portfolio",
+    "image": "./images/portfolio.png",
+    "content": "I created this example portfolio website during my HTML assignment. For this website firstly I created a figma prototype and implemented into the HTML and CSS.",
+    "type_id": 2,
+    "user_id": 2,
+    "created_at": "2022-08-12T16:35:45.000000Z",
+    "updated_at": "2022-08-12T16:46:46.000000Z",
+    "user": {
+      "id": 2,
+      "first": "Owen",
+      "last": "Reynolds",
+      "email": "gia28@example.org",
+      "email_verified_at": "2022-08-12T16:35:45.000000Z",
+      "created_at": "2022-08-12T16:35:45.000000Z",
+      "updated_at": "2022-08-12T16:35:45.000000Z"
+    },
+    "type": {
+      "id": 2,
+      "title": "Aut est molestias doloribus ea.",
+      "created_at": "2022-08-12T16:35:45.000000Z",
+      "updated_at": "2022-08-12T16:35:45.000000Z"
+    }
+  }
+]

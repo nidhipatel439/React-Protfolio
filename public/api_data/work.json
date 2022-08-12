@@ -1,0 +1,16 @@
+[
+  {
+    "id": 2,
+    "company": "Digital Science Web Technologies Pvt. Ltd. , India",
+    "job_title": "Front end developer",
+    "start_from": "2018",
+    "end_to": "2020"
+  },
+  {
+    "id": 1,
+    "company": "Freelancer",
+    "job_title": "Front-End Developer",
+    "start_from": "2020",
+    "end_to": "2022"
+  }
+]

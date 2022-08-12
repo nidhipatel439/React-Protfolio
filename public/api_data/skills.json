@@ -1,0 +1,58 @@
+[
+  {
+    "id": 6,
+    "title": "Php",
+    "percent": "70",
+    "image": null,
+    "created_at": "2022-08-12T18:19:12.000000Z",
+    "updated_at": "2022-08-12T18:19:12.000000Z"
+  },
+  {
+    "id": 7,
+    "title": "React",
+    "percent": "70",
+    "image": null,
+    "created_at": "2022-08-12T18:19:26.000000Z",
+    "updated_at": "2022-08-12T18:19:26.000000Z"
+  },
+  {
+    "id": 5,
+    "title": "NodeJs",
+    "percent": "80",
+    "image": null,
+    "created_at": "2022-08-12T18:18:59.000000Z",
+    "updated_at": "2022-08-12T18:18:59.000000Z"
+  },
+  {
+    "id": 4,
+    "title": "MySQL",
+    "percent": "85",
+    "image": null,
+    "created_at": "2022-08-12T18:18:40.000000Z",
+    "updated_at": "2022-08-12T18:18:40.000000Z"
+  },
+  {
+    "id": 1,
+    "title": "HTML",
+    "percent": "95",
+    "image": null,
+    "created_at": "2022-08-12T16:35:45.000000Z",
+    "updated_at": "2022-08-12T18:17:59.000000Z"
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "percent": "95",
+    "image": null,
+    "created_at": "2022-08-12T16:35:45.000000Z",
+    "updated_at": "2022-08-12T18:18:13.000000Z"
+  },
+  {
+    "id": 3,
+    "title": "Javascript",
+    "percent": "95",
+    "image": null,
+    "created_at": "2022-08-12T18:18:22.000000Z",
+    "updated_at": "2022-08-12T18:18:22.000000Z"
+  }
+]

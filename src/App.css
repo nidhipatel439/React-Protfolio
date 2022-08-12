@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+.accordion-button:not(.collapsed) {
+  background: inherit;
+  border-radius: 0 !important;
+  box-shadow: none;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-radius: 0 !important;
+}
+.accordion-button:focus {
+  border-color: inherit !important;
+  box-shadow: none !important;
+}
+.accordion {
+  --bs-accordion-border-width: 0 !important;
+}
+/* about section */
+.about-outer button,
+.about-outer .accordion-button:not(.collapsed),
+.about-section {
+  background-color: #054191;
+  color: #000000;
+}
+.about-inner {
+  background-color: #2f57a5;
+}
+/* education section */
+.education-outer button,
+.education-outer .accordion-button:not(.collapsed),
+.education-section {
+  background-color: #655d8a;
+  color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.education-inner {
+  background-color: #4c4470;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.education-section .row {
+  border-bottom: 2px solid #000000;
+  padding: 1em 0;
+}
+.education-section .row:last-child {
+  border: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* experience section */
+.experience-outer button,
+.experience-outer .accordion-button:not(.collapsed),
+.experience-section {
+  background-color: #7897ab;
+  color: #000000;
 }
 
-.App-link {
-  color: #61dafb;
+.experience-inner {
+  background-color: #5b768b;
+}
+.experience-section .row {
+  border-bottom: 2px solid #000000;
+  padding: 1em 0;
+}
+.experience-section .row:last-child {
+  border: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* skill section */
+.skill-outer button,
+.skill-outer .accordion-button:not(.collapsed),
+.skill-section {
+  background-color: #fdceb9;
+  color: #000000;
+}
+
+.skill-section {
+  height: calc(100vh - calc(95px * 4));
+}
+
+.progress-bar {
+  background-color: #ac8b7c !important;
+  box-shadow: -1px 1px 2px rgb(154 128 115 / 20%),
+    1px -1px 2px rgb(154 128 115 / 20%), -1px -1px 2px rgb(255 255 255 / 90%),
+    1px 1px 3px rgb(154 128 115 / 90%), inset 1px 1px 2px rgb(255 255 255 / 30%),
+    inset -1px -1px 2px rgb(154 128 115 / 50%);
+  color: #000000 !important;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.progress {
+  height: 25px !important;
+  background: #f8ceb9 !important;
+  box-shadow: -1px 1px 2px rgb(255 237 213 / 30%),
+    1px -1px 2px rgb(211 175 157 / 50%),
+    inset 1px 1px 2px rgb(211 175 157 / 20%),
+    inset -1px -1px 2px rgb(211 175 157 / 20%),
+    inset 1px -1px 2px rgb(255 237 213 / 90%),
+    inset -1px 1px 3px rgb(211 175 157 / 90%);
+}
+
+/* project section */
+.project-outer button,
+.project-outer .accordion-button:not(.collapsed),
+.project-section {
+  background-color: #d885a3;
+  color: #000000;
+}
+.project-section {
+  height: calc(100vh - calc(95px * 4));
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2,
+    "title": "Information Technology",
+    "start": "2013",
+    "end": "2017",
+    "degree": "Bachelor of Engineering",
+    "location": "Gujarat Technological University, INDIA"
+  },
+  {
+    "id": 1,
+    "title": "Web development",
+    "start": "2022",
+    "end": "2023",
+    "degree": "Ontario Graduation Certificate",
+    "location": "Humber College, Canada"
+  }
+]
